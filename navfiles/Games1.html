@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morgan's Gaming Haven</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+   body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .nav-link, .dropdown-item {
+      font-size: 1.1rem;
+      color: #ffffff !important;
+    }
+    .dropdown-item:hover {
+      background-color: #333333;
+    }
+    .search-bar {
+      width: 250px;
+    }
+    .btn-outline-light {
+      border-color: #ffffff;
+      color: #ffffff;
+    }
+    .btn-outline-light:hover {
+      background-color: #ffffff;
+      color: #121212;
+    }
+    .headingss {
+      font-size: 2.5rem;
+      font-weight: 600;
+      font-family: 'Helvetica', sans-serif;
+      color: #ffffff;
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+    .gaming-card {
+      background-color: #121212;
+      color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+      overflow: hidden;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gaming-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(255, 255, 255, 0.4);
+    }
+    .gaming-card-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 2px solid #444;
+    }
+    .gaming-card-body {
+      padding: 20px;
+    }
+    .gaming-card-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    .gaming-card-description {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    .gaming-card-btn {
+      background-color: #ff6600;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .gaming-card-btn:hover {
+      background-color: #e55c00;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <!-- Logo / Brand Name on the left -->
+      <a class="navbar-brand" href="../Index.html"><i class="bi bi-controller"></i>    Morgan's Gaming Haven</a>
+  
+      <!-- Navbar toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Centered Search Bar -->
+  
+        <!-- Navigation items on the right -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./newrelese.html">NewReleases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./upcomming.html">UpcomingGames</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h1 class="headingss">WelCome, Gamer !</h1> 
+    
+<div class="container mt-5">
+    <!-- Open World Section -->
+    <h2 class="text-center mb-4">Open World</h2>
+    <div class="row">
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/sliderrdr2.png" alt="Red Dead Redemption 2" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Red Dead Redemption 2</h3>
+                    <p class="gaming-card-description">"Immerse yourself in an epic adventure."</p>
+                    <a href="https://www.rockstargames.com/reddeadredemption2"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/sliderrdr1.jpg" alt="Red Dead Redemption" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Red Dead Redemption</h3>
+                    <p class="gaming-card-description">"Explore an open-world masterpiece."</p>
+                    <a href="https://www.rockstargames.com/reddeadredemption"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/sliderassassian.jpg" alt="Red Dead Redemption" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Assassin's Creed Valhalla</h3>
+                    <p class="gaming-card-description">"Explore an open-world masterpiece."</p>
+                    <a href="https://www.ubisoft.com/en-gb/game/assassins-creed/valhalla"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/slidergta5.jpg" alt="Grand Theft Auto V" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Grand Theft Auto V</h3>
+                    <p class="gaming-card-description">"21st-century best open world."</p>
+                    <a href="https://www.rockstargames.com/gta-v"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Zombie Games Section -->
+    <h2 class="text-center mb-4">Zombie Games</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/slider last.jpg" alt="The Last Of Us" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">The Last Of Us</h3>
+                    <p class="gaming-card-description">"A thrilling action game that you can't miss."</p>
+                    <a href="https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Series Games Section -->
+    <h2 class="text-center mb-4">Series Games</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/slidergod-of-war.jpg" alt="God Of War Ragnarök" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">God Of War Ragnarök</h3>
+                    <p class="gaming-card-description">"Best action adventure series."</p>
+                    <a href="https://store.steampowered.com/app/2322010/God_of_War_Ragnark/"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fun With Play Section -->
+    <h2 class="text-center mb-4">Fun With Play</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/amongusico.jpg" alt="Among Us" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Among Us</h3>
+                    <p class="gaming-card-description">"Fun with play."</p>
+                    <a href="https://store.epicgames.com/en-US/p/among-us"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/humanffico.jpg" alt="Among Us" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Human: Fall Flat</h3>
+                    <p class="gaming-card-description">"Fun with play."</p>
+                    <a href="https://store.steampowered.com/app/477160/Human_Fall_Flat/"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Horror Games Section -->
+    <h2 class="text-center mb-4">Horror Games</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/deathbyico.jpg" alt="Dead by Daylight" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Dead by Daylight</h3>
+                    <p class="gaming-card-description">"Fun with play and horror."</p>
+                    <a href="https://store.steampowered.com/app/381210/Dead_by_Daylight/"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/slider last.jpg" alt="Among Us" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">The Last Of Us</h3>
+                    <p class="gaming-card-description">"A thrilling action game that you can't miss."</p>
+                    <a href="https://store.steampowered.com/app/477160/Human_Fall_Flat/"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <footer style="background-color: #222; color: #fff; padding: 40px 20px; text-align: center; font-family: Arial, sans-serif;">
+        <div style="max-width: 1200px; margin: auto;">
+            <h2 style="font-size: 24px; margin-bottom: 20px;">Morgan's Gaming Haven</h2>
+            <p style="font-size: 16px; line-height: 1.6; max-width: 700px; margin: auto;">
+                Dive into endless worlds and unforgettable adventures. At Morgan's Gaming Haven, we bring the thrill of gaming right to your fingertips.<br>
+                If Any Gaming suggestions Call +91 6374676042
+            </p>
+            <div style="margin-top: 30px;">
+                <a href="https://discord.com/channels/@me" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">Discard</a>
+                <a href="https://github.com/Thava7177" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">GitHub</a>
+                <a href="https://app.netlify.com/teams/thava7177/sites" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">Netlify</a>
+            </div>
+            <p style="font-size: 14px; color: #888; margin-top: 20px;">&copy; 2024 Morgan's Gaming Haven. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+

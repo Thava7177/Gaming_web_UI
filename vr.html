@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morgan's Gaming Haven</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .nav-link, .dropdown-item {
+      font-size: 1.1rem;
+      color: #ffffff !important;
+    }
+    .dropdown-item:hover {
+      background-color: #333333;
+    }
+    .search-bar {
+      width: 250px;
+    }
+    .btn-outline-light {
+      border-color: #ffffff;
+      color: #ffffff;
+    }
+    .btn-outline-light:hover {
+      background-color: #ffffff;
+      color: #121212;
+    }
+    .headingss {
+      font-size: 2.5rem;
+      font-weight: 600;
+      font-family: 'Helvetica', sans-serif;
+      color: #ffffff;
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+    .gaming-card {
+      background-color: #121212;
+      color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+      overflow: hidden;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gaming-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(255, 255, 255, 0.4);
+    }
+    .gaming-card-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 2px solid #444;
+    }
+    .gaming-card-body {
+      padding: 20px;
+    }
+    .gaming-card-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    .gaming-card-description {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    .gaming-card-btn {
+      background-color: #ff6600;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .gaming-card-btn:hover {
+      background-color: #e55c00;
+    }
+  </style>
+</head>
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <!-- Logo / Brand Name on the left -->
+      <a class="navbar-brand" href="./Index.html"><i class="bi bi-controller"></i>    Morgan's Gaming Haven</a>
+  
+      <!-- Navbar toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Centered Search Bar -->
+  
+        <!-- Navigation items on the right -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./navfiles/Games1.html">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./navfiles/newrelese.html">NewReleases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./navfiles/upcomming.html">UpcomingGames</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./navfiles/about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <!-- Title -->
+  <h1 class="headingss">WelCome, Gamer !</h1> 
+  <h2 class="headingss">With VR, you’re not just playing the game- you’re living it ..</h2>
+
+  
+  
+  <!-- Cards -->
+<div class="container mt-5">
+    <div class="row justify-content-around">
+      <div class="col-md-3">
+        <div class="gaming-card">
+          <img src="https://media.istockphoto.com/id/1429075465/video/game-world.jpg?s=640x640&k=20&c=YiEByAZxLSf3C_-IjX7b1hoQRqIpZyRYzOUCmpkyj8c=" alt="Game Image" class="gaming-card-img">
+          <div class="gaming-card-body">
+            <h3 class="gaming-card-title">Online Games</h3>
+            <p class="gaming-card-description">" When You Play Online, and Multiplayer Games In VR .. "</p>
+            <a href="#online-games-vr"><button class="gaming-card-btn">View Games</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="gaming-card">
+          <img src="https://media.istockphoto.com/id/1316805164/photo/woman-play-3d-vr-game.jpg?s=612x612&w=0&k=20&c=rCNry1aOTxo1arYzeNabs71jlxwoy3RZaSIGBjPCME8=" alt="Game Image" class="gaming-card-img">
+          <div class="gaming-card-body">
+            <h3 class="gaming-card-title">Offline Games</h3>
+            <p class="gaming-card-description">" If You Play offline and Experience a Play Role Character Life.. "</p>
+            <a href="#offline-games-vr"><button class="gaming-card-btn">View Games</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Online Games Section -->
+  <h1 class="headingss" id="online-games-vr">Online Games ..</h1>
+  <div class="container mt-5">
+    <div class="row justify-content-around">
+      <div class="col-md-3">
+        <div class="gaming-card">
+          <img src="assets/images/product image/vrchat.jpg" alt="Game Image" class="gaming-card-img">
+          <div class="gaming-card-body">
+            <h3 class="gaming-card-title">VRChat</h3>
+            <p class="gaming-card-description">VRChat offers an endless collection of social VR experiences by giving the power of creation to its community. </p>
+            <a href="https://hello.vrchat.com/"><button class="gaming-card-btn">View Details</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="gaming-card">
+          <img src="https://images.squarespace-cdn.com/content/v1/582e7271bebafbd72792bd97/1614738386082-MZ6CCR5UN99BZM793563/RecRoom_Creator.png?format=1000w" alt="Game Image" class="gaming-card-img">
+          <div class="gaming-card-body">
+            <h3 class="gaming-card-title">Rec Room</h3>
+            <p class="gaming-card-description">Rec Room is the best place to build and play games together</p>
+            <a href="https://recroom.com/"><button class="gaming-card-btn">View Details</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="gaming-card">
+          <img src="assets/images/product image/vronline1.jpg" alt="Game Image" class="gaming-card-img">
+          <div class="gaming-card-body">
+            <h3 class="gaming-card-title">Pavlov VR</h3>
+            <p class="gaming-card-description">Pavlov is a team-based multiplayer VR shooter with realistic weapon handling. </p>
+            <a href="https://www.meta.com/experiences/pavlov-shack/2443267419018232/"><button class="gaming-card-btn">View Details</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- StoryModes Games Section -->
+  <h1 class="headingss" id="offline-games-vr">Offline Games ..</h1>
+  <div class="container mt-5" id="games">
+    <div class="row justify-content-around">
+        <div class="col-md-3">
+            <div class="gaming-card">
+                <img src="./assets/images/product image/Beat Sabe11.png" alt="Red Dead Redemption 2" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Beat Saber</h3>
+                    <p class="gaming-card-description">Beat Saber is a unique VR rhythm game where your goal is to slash the beats</p>
+                    <a href="https://www.meta.com/experiences/beat-saber/2448060205267927/"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="gaming-card">
+                <img src="./assets/images/product image/Superhot11.jpg" alt="Red Dead Redemption" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">SUPERHOT VR </h3>
+                    <p class="gaming-card-description">The definitive VR action experience. Time moves only when you move.</p>
+                    <a href="https://www.meta.com/experiences/superhot-vr/1921533091289407/"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="gaming-card">
+              <img src="./assets/images/product image/The Walking Dead00.jpg" alt="Red Dead Redemption" class="gaming-card-img">
+              <div class="gaming-card-body">
+                  <h3 class="gaming-card-title">The Walking Dead: Saints & Sinners</h3>
+                  <p class="gaming-card-description">The Meta Quest 3 Update for The Walking Dead: Saints & Sinners is live!</p>
+                  <a href="https://www.meta.com/experiences/the-walking-dead-saints-sinners/2897337400373711/"><button class="gaming-card-btn">Learn More</button></a>
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
+
+
+  
+  <footer style="background-color: #222; color: #fff; padding: 40px 20px; text-align: center; font-family: Arial, sans-serif;">
+    <div style="max-width: 1200px; margin: auto;">
+        <h2 style="font-size: 24px; margin-bottom: 20px;">Morgan's Gaming Haven</h2>
+        <p style="font-size: 16px; line-height: 1.6; max-width: 700px; margin: auto;">
+            Dive into endless worlds and unforgettable adventures. At Morgan's Gaming Haven, we bring the thrill of gaming right to your fingertips.<br>
+            If Any Gaming suggestions Call +91 6374676042
+        </p>
+        <div style="margin-top: 30px;">
+            <a href="https://discord.com/channels/@me" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">Discard</a>
+            <a href="https://github.com/Thava7177" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">GitHub</a>
+            <a href="https://app.netlify.com/teams/thava7177/sites" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">Nitlify</a>
+        </div>
+        <p style="font-size: 14px; color: #888; margin-top: 20px;">&copy; 2024 Morgan's Gaming Haven. All rights reserved.</p>
+    </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

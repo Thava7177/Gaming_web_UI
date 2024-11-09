@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morgan's Gaming Haven</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+   body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .nav-link, .dropdown-item {
+      font-size: 1.1rem;
+      color: #ffffff !important;
+    }
+    .dropdown-item:hover {
+      background-color: #333333;
+    }
+    .search-bar {
+      width: 250px;
+    }
+    .btn-outline-light {
+      border-color: #ffffff;
+      color: #ffffff;
+    }
+    .btn-outline-light:hover {
+      background-color: #ffffff;
+      color: #121212;
+    }
+    .headingss {
+      font-size: 2.5rem;
+      font-weight: 600;
+      font-family: 'Helvetica', sans-serif;
+      color: #ffffff;
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+    .gaming-card {
+      background-color: #121212;
+      color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+      overflow: hidden;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gaming-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(255, 255, 255, 0.4);
+    }
+    .gaming-card-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 2px solid #444;
+    }
+    .gaming-card-body {
+      padding: 20px;
+    }
+    .gaming-card-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    .gaming-card-description {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    .gaming-card-btn {
+      background-color: #ff6600;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .gaming-card-btn:hover {
+      background-color: #e55c00;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <!-- Logo / Brand Name on the left -->
+      <a class="navbar-brand" href="../Index.html"><i class="bi bi-controller"></i>    Morgan's Gaming Haven</a>
+  
+      <!-- Navbar toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Centered Search Bar -->
+  
+        <!-- Navigation items on the right -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Games1.html">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./newrelese.html">NewReleases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h1 class="headingss">WelCome, Gamer !</h1> 
+    
+<div class="container mt-5">
+    <!-- Open World Section -->
+    <h2 class="text-center mb-4">Pc Upcomming Games</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/slider last of us 2.jpg" alt="Red Dead Redemption 2" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">The Last of Us Part II</h3>
+                    <p class="gaming-card-description">an action-adventure game developed by Naughty Dog.</p>
+                    <a href="https://en.wikipedia.org/wiki/The_Last_of_Us_Part_II"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/GTA 6.jpg" alt="Red Dead Redemption" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Grand Theft Auto VI</h3>
+                    <p class="gaming-card-description">Grand Theft Auto VI is an upcoming video game in development by Rockstar Games.</p>
+                    <a href="https://www.rockstargames.com/VI"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/persona-5-tactica-screenshot-09-en-09aug23?$1600px$" alt="Grand Theft Auto V" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Persona 5 Tactica </h3>
+                    <p class="gaming-card-description">A strategic RPG with tactical combat from the acclaimed Persona series.</p>
+                    <a href="https://store.steampowered.com/app/2254740/Persona_5_Tactica/"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Zombie Games Section -->
+    <h2 class="text-center mb-4">Mobile Upcomming Games</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="https://cdn.footballmanager.com/site/2024-09/Desktop%20Womens%20Football%20Foreground_Masked_0.png" alt="The Last Of Us" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">FM25 Mobile</h3>
+                    <p class="gaming-card-description">"A thrilling action game that you can't miss."</p>
+                    <a href="https://www.footballmanager.com/games/football-manager-25"><button class="gaming-card-btn">Pre Register Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Series Games Section -->
+    <h2 class="text-center mb-4">Play Station Upcomming Games</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/GTA 6.jpg" alt="Red Dead Redemption" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Grand Theft Auto VI</h3>
+                    <p class="gaming-card-description">Grand Theft Auto VI is an upcoming video game in development by Rockstar Games.</p>
+                    <a href="https://www.rockstargames.com/VI"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="../assets/images/sliderimages/Of Uspic.png" alt="Red Dead Redemption 2" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">The Last of Us Part II</h3>
+                    <p class="gaming-card-description">an action-adventure game developed by Naughty Dog.</p>
+                    <a href="https://www.playstation.com/en-in/games/the-last-of-us-part-ii-remastered/"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fun With Play Section -->
+    <h2 class="text-center mb-4">VR Upcomming Games</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center mb-4">
+            <div class="gaming-card">
+                <img src="https://static.vrdb.app/images/29115559-5fd1-40c6-b0ce-c7420e597288.jpeg" alt="Among Us" class="gaming-card-img">
+                <div class="gaming-card-body">
+                    <h3 class="gaming-card-title">Bridge Constructor Studio</h3>
+                    <p class="gaming-card-description">fans of engineering puzzles and creative sandbox games</p>
+                    <a href="https://www.meta.com/en-gb/experiences/bridge-constructor-studio/7638484079521676/?ref=uploadvr.com"><button class="gaming-card-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <footer style="background-color: #222; color: #fff; padding: 40px 20px; text-align: center; font-family: Arial, sans-serif;">
+        <div style="max-width: 1200px; margin: auto;">
+            <h2 style="font-size: 24px; margin-bottom: 20px;">Morgan's Gaming Haven</h2>
+            <p style="font-size: 16px; line-height: 1.6; max-width: 700px; margin: auto;">
+                Dive into endless worlds and unforgettable adventures. At Morgan's Gaming Haven, we bring the thrill of gaming right to your fingertips.<br>
+                If Any Gaming suggestions Call +91 6374676042
+            </p>
+            <div style="margin-top: 30px;">
+                <a href="https://discord.com/channels/@me" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">Discard</a>
+                <a href="https://github.com/Thava7177" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">GitHub</a>
+                <a href="https://app.netlify.com/teams/thava7177/sites" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">Netlify</a>
+            </div>
+            <p style="font-size: 14px; color: #888; margin-top: 20px;">&copy; 2024 Morgan's Gaming Haven. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+

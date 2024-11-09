@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morgan's Gaming Haven</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .nav-link, .dropdown-item {
+      font-size: 1.1rem;
+      color: #ffffff !important;
+    }
+    .dropdown-item:hover {
+      background-color: #333333;
+    }
+    .search-bar {
+      width: 250px;
+    }
+    .btn-outline-light {
+      border-color: #ffffff;
+      color: #ffffff;
+    }
+    .btn-outline-light:hover {
+      background-color: #ffffff;
+      color: #121212;
+    }
+    .headingss {
+      font-size: 2.5rem;
+      font-weight: 600;
+      font-family: 'Helvetica', sans-serif;
+      color: #ffffff;
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+    .team-section, .website-section {
+            padding: 50px 0;
+        }
+        .team-title, .website-title {
+            font-size: 3em;
+            margin-bottom: 40px;
+            color: #f39c12;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .team-card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            margin: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .team-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 24px rgba(243, 156, 18, 0.5);
+        }
+        .card-header {
+            background-color: #2a2a2a;
+            color: #f1c40f;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .card-body {
+            text-align: center;
+            padding: 20px;
+        }
+        .role {
+            font-size: 1.2em;
+            color: #aaa;
+        }
+        .desc {
+            font-size: 0.9em;
+            color: #bbb;
+            margin-top: 10px;
+        }
+        .website-section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #ccc;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #f39c12;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .back-to-top:hover {
+            background-color: #e67e22;
+        }
+        .team-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align the cards in the row */
+}
+
+.team-card {
+    flex: 1 1 300px; /* Each card will take up equal width with a minimum of 300px */
+    max-width: 300px; /* Limit the maximum width of each card */
+    margin: 15px; /* Add spacing around each card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+</style>
+</head>
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <!-- Logo / Brand Name on the left -->
+      <a class="navbar-brand" href="../Index.html"><i class="bi bi-controller"></i>    Morgan's Gaming Haven</a>
+  
+      <!-- Navbar toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Centered Search Bar -->
+  
+        <!-- Navigation items on the right -->
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../Index.html">Home</a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Games1.html">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./newrelese.html">NewReleases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./upcomming.html">UpcomingGames</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+<section class="team-section">
+    <h1 class="team-title">Meet the Team - Cache me if you can</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card team-card">
+                    <div class="card-header">Jagathesh</div>
+                    <div class="card-body">
+                        <p class="role">Role: Leader & Idea Generator</p>
+                        <p class="desc">The mastermind behind "Cache me if you can." Jagathesh steers the project with innovative ideas to deliver an ultimate gaming recommendation experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card team-card">
+                    <div class="card-header">Thavamurugan</div>
+                    <div class="card-body">
+                        <p class="role">Role: Code Implementer</p>
+                        <p class="desc">Turning ideas into reality, Thavamurugan codes the core features, ensuring smooth performance and a user-friendly experience for all gamers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card team-card">
+                    <div class="card-header">George Sapastine</div>
+                    <div class="card-body">
+                        <p class="role">Role: Image Designer</p>
+                        <p class="desc">Bringing visuals to life, George selects and designs stunning graphics, creating a visually engaging platform that captures the gaming spirit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card team-card">
+                    <div class="card-header">Sheik Salman</div>
+                    <div class="card-body">
+                        <p class="role">Role: Link Manager</p>
+                        <p class="desc">Expert in linking, Sheik ensures seamless page transitions, letting users navigate with ease through various game categories and suggestions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card team-card">
+                    <div class="card-header">ChatGPT</div>
+                    <div class="card-body">
+                        <p class="role">Role: Helper</p>
+                        <p class="desc">As the team's assistant, ChatGPT provides insights, coding support, and creative ideas, helping bring the vision of the website to life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="website-section">
+    <h1 class="website-title">About Our Website</h1>
+    <div class="container">
+        <p>
+            <strong>Welcome to Cache me if you can!</strong> Our mission is to help gamers discover new titles, explore various game genres, and find recommendations tailored to their interests.
+        </p>
+        <p>
+            <strong>Key Features:</strong><br>
+            - **Personalized Recommendations**: Get suggestions based on your preferences and play history.<br>
+            - **Curated Lists**: Explore lists like "Top RPGs," "Best Open-World Games," and "Underrated Indie Gems."<br>
+            - **Community Reviews**: See what other gamers think about each game, helping you make informed choices.
+        </p>
+        <p>
+            We strive to create a seamless and immersive experience for all users, whether they are hardcore players, casual gamers, or just getting started. Our website design reflects the modern, dark aesthetic of the gaming world, making it both functional and visually engaging.
+        </p>
+    </div>
+</section>
+<button class="back-to-top" onclick="scrollToTop()">↑</button>
+    <footer style="background-color: #222; color: #fff; padding: 40px 20px; text-align: center; font-family: Arial, sans-serif;">
+    <div style="max-width: 1200px; margin: auto;">
+        <h2 style="font-size: 24px; margin-bottom: 20px;">Morgan's Gaming Haven</h2>
+        <p style="font-size: 16px; line-height: 1.6; max-width: 700px; margin: auto;">
+            Dive into endless worlds and unforgettable adventures. At Morgan's Gaming Haven, we bring the thrill of gaming right to your fingertips. <br>
+            If Any Gaming suggestions Call +91 6374676042
+        </p>
+        <div style="margin-top: 30px;">
+            <a href="https://discord.com/channels/@me" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">Discard</a>
+            <a href="https://github.com/Thava7177" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">GitHub</a>
+            <a href="https://app.netlify.com/teams/thava7177/sites" style="color: #1e90ff; text-decoration: none; margin: 0 15px; font-size: 18px;">Netlify</a>
+        </div>
+        <p style="font-size: 14px; color: #888; margin-top: 20px;">&copy; 2024 Morgan's Gaming Haven. All rights reserved.</p>
+    </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 200) {
+            $('.back-to-top').fadeIn();
+        } else {
+            $('.back-to-top').fadeOut();
+        }
+    });
+
+    function scrollToTop() {
+        $('html, body').animate({ scrollTop: 0 }, 'smooth');
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
